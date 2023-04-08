@@ -1,0 +1,52 @@
+.bg-color {
+    background-color:#cd5c5c;
+}
+
+nav{
+    box-shadow:0 0 10px black;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family:"Comic Sans MS",SansSerif;
+    background-color: black;
+}
+
+img{
+    border-radius: 10px;
+    width: 700px;
+    height: 600px;
+}
+img:hover{
+    box-shadow: 0 0 10px white;
+}
+
+.row{
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    img{
+        width: 400px;
+        height: 300px;
+        border-radius: 10px;
+
+    }
+    img:hover{
+        box-shadow: 0 0 10px white;
+    }
+}
+
+@media (max-width: 576px) {
+    img{
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    img:hover{
+        box-shadow: 0 0 10px white;
+    }
+}

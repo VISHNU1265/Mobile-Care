@@ -1,0 +1,19 @@
+body{
+    font-family: "Comic Sans MS",SansSerif;
+
+}
+
+.bg-color {
+    background-color:#cd5c5c;
+}
+
+nav{
+    box-shadow:0 0 10px black;
+}
+.img-fluid{
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+}

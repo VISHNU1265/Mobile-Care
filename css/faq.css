@@ -1,0 +1,21 @@
+body{
+    font-family:"Comic Sans MS",SansSerif;
+    background-color: black;
+
+}
+
+.bg-color {
+    background-color:#cd5c5c;
+}
+
+nav{
+    box-shadow:0 0 10px black;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    color: white;
+}

@@ -1,0 +1,31 @@
+body{
+    font-family:"Comic Sans MS",SansSerif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg-color {
+    background-color:#cd5c5c;
+}
+
+nav{
+    box-shadow:0 0 10px black;
+}
+
+a{
+    text-decoration: none;
+}
+section{
+    text-align: center;
+    font-family: Constantia,sans-serif;
+    font-size: 20px;
+
+}
+
+section div h1{
+    font-size: 40px;
+}
+
+section a{
+    font-family: "Arial Narrow",sans-serif;
+}
