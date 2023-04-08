@@ -153,7 +153,6 @@ let devices= {
 let device = document.querySelector("#device");
 let model = document.querySelector("#model");
 let issue = document.querySelector("#issue");
-let price = document.querySelector("#price");
 
 document.querySelector("#device").addEventListener("change", ()=>{
     let deviceName = device.value;
@@ -226,52 +225,10 @@ issue.addEventListener("change", ()=>{
                 <div class="mt-3">
                     <button type="submit" class="btn btn-primary" id="quote">Get Quote</button>
                 </div>`;
-        device.value = "";
-        issue.value = "";
-        model.value = "";
+
     }
     else{
         alert("Select all fields");
     }
 });
 
-
-document.querySelector('#quote-form').addEventListener('submit', (e)=>{
-    e.preventDefault();
-    alert("Thank you for your request. We will contact you soon.");
-    window.location.href= "../html/home.html";
-});
-/*
-function getPrice(){
-    let deviceName = device.value;
-    let deviceIssues = devices[deviceName];
-    let issueName = issue.value;
-    let issuePrice = deviceIssues[0].issues[issueName];
-
-    let tableContent = `<tr>`;
-    tableContent += `<td>Device</td>`;
-    tableContent += `<td>${device.value}</td>`;
-    tableContent += `</tr>`;
-
-    tableContent += `<tr>`;
-    tableContent += `<td>Model</td>`;
-    tableContent += `<td>${model.value}</td>`;
-    tableContent += `</tr>`;
-
-    tableContent += `<tr>`;
-    tableContent += `<td>Issue</td>`;
-    tableContent += `<td>${issue.value}</td>`;
-    tableContent += `</tr>`;
-
-    tableContent += `<tr>`;
-    tableContent += `<td>Price</td>`;
-    tableContent += `<td>${issuePrice}</td>`;
-    tableContent += `</tr>`;
-    price.innerHTML = tableContent;
-
-
-
-
-
-
-}*/
